@@ -51,12 +51,13 @@ Output: [0,1]
 - **Only one valid answer exists.**
 
 ### Solution:
-**
+```
+/*
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
- **
- ```
+*/
+ 
 var twoSum = function(nums, target) {
     let keys = {};
     for (let i = 0 ; i<nums.length;i++){
